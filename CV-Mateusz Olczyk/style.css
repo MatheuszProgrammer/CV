@@ -1,0 +1,420 @@
+body{
+    position: relative;
+    background-color: lightgray;
+}
+header{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 150px;
+    width: 700px;
+    background-color:royalblue ;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+}
+#PHOTO{
+    border-top-left-radius: 10px;
+    float: left;
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+}
+.PHOTOCV{
+    border-top-left-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+.NAME{
+    position: absolute;
+    top: 20px;
+    left: 200px;
+    font-size: 30px;
+    color: floralwhite;
+    font-family: arial;
+    font-weight: bolder;
+}
+.INFO{
+    position: absolute;
+    top: 55px;
+    left: 200px;
+    font-size: 18px;
+    color: whitesmoke;
+    font-family: arial;
+    filter: brightness(0.9);
+}
+.INFORMATION{
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: arial;
+    filter: brightness(0.9);
+}
+.links{
+    text-decoration: none;
+    color: whitesmoke;
+}
+main{
+    position: absolute;
+    left: 50%;
+    top: 150px;
+    margin-right: -50%;
+    transform: translate(-50%);
+    float: left;
+    width: 700px;
+    height: 785px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#LEFT{
+    float: left;
+    background-color: white;
+    width: 70%;
+    height: 100%;
+    border-bottom-left-radius: 10px;
+}
+
+.TABLEMAIN{
+    position: absolute;
+    left: 420px;
+    top: 20px;
+    border:solid 1px lightgray;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    width: 10%;
+    height: 95%;
+}
+
+#SCHOOL{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    font-size: 25px;
+    left: 50px;
+    color:royalblue;
+}
+#SCHOOL1{
+    position: absolute;
+    right: 30px;
+    top: 60px;
+    font-size: 16px;
+    left: 50px;
+    color:black;
+    font-weight: bold;
+}
+#city1{
+    font-size: 12px;
+    font-family:sans-serif;
+    font-weight: lighter;
+    color: white;
+    filter: brightness(0.6);
+}
+#DATE1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    position: absolute;
+    top: 63px;
+    left:340px;
+}
+#SCHOOL2{
+    position: absolute;
+    right: 30px;
+    top: 110px;
+    font-size: 16px;
+    left: 50px;
+    color:black;
+    font-weight: bold;
+}
+#city2{
+    font-size: 12px;
+    font-family:sans-serif;
+    font-weight: lighter;
+    color: white;
+    filter: brightness(0.6);
+}
+#DATE2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    position: absolute;
+    top: 113px;
+    left:340px;
+}
+#LINE1{
+    position: absolute;
+    color: lightgray;
+    width: 450px;
+    left: 50%;
+    top: 20%;
+    transform: translate(-75%);
+}
+#EXP{
+    position: absolute;
+    right: 30px;
+    top: 180px;
+    font-size: 25px;
+    left: 50px;
+    color:royalblue;
+}
+#EXP1{
+    position: absolute;
+    right: 30px;
+    top: 220px;
+    font-size: 16px;
+    left: 50px;
+    color:black;
+    font-weight: bold;
+}
+#city10{
+    font-size: 12px;
+    font-family:sans-serif;
+    font-weight: lighter;
+    color: white;
+    filter: brightness(0.6);
+}
+#DATE10{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    position: absolute;
+    top: 222px;
+    left:340px;
+}
+#EXP2{
+    position: absolute;
+    right: 30px;
+    top: 270px;
+    font-size: 16px;
+    left: 50px;
+    color:black;
+    font-weight: bold;
+}
+#city20{
+    font-size: 12px;
+    font-family:sans-serif;
+    font-weight: lighter;
+    color: white;
+    filter: brightness(0.6);
+}
+#DATE20{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    position: absolute;
+    top: 275px;
+    left:340px;
+}
+#EXP3{
+    position: absolute;
+    right: 30px;
+    top: 320px;
+    font-size: 16px;
+    left: 50px;
+    color:black;
+    font-weight: bold;
+}
+#city30{
+    font-size: 12px;
+    font-family:sans-serif;
+    font-weight: lighter;
+    color: white;
+    filter: brightness(0.6);
+}
+#DATE30{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    position: absolute;
+    top: 330px;
+    left:340px;
+}
+#LINE2{
+    position: absolute;
+    color: lightgray;
+    width: 450px;
+    left: 50%;
+    top: 48%;
+    transform: translate(-75%);
+}
+#CER{
+    position: absolute;
+    right: 30px;
+    top: 405px;
+    font-size: 25px;
+    left: 50px;
+    color:royalblue;
+}
+.links1{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    left: 120px;
+    top: 80px;
+    font-size: 13px;
+    text-decoration: none;
+    color: darkgrey;
+}
+.links2{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    left: 120px;
+    top: 133px;
+    font-size: 13px;
+    text-decoration: none;
+    color: darkgrey;
+}
+#certyfikat2{
+    position: absolute;
+    top: 450px;
+    height: 200px;
+    left: 90px;
+    border: 1px solid black
+}
+#certyfikat1{
+    position: absolute;
+    top: 450px;
+    height: 200px;
+    left: 260px;
+    border: 1px solid black
+}
+
+#RIGHT{
+    float: left;
+    background-color: white;
+    width: 30%;
+    height: 100%;
+    border-bottom-right-radius: 10px;
+}
+#DATA_TABLE{
+    position: absolute;
+    top: 50px;
+    right: 72px;
+    font-size: 15px;
+    border: solid 1px grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#DATA_NAME{
+    position: relative;
+    right: 30px;
+    top: 20px;
+    font-size: 20px;
+    left: 20px;
+    color:royalblue;
+}
+.data_col{
+    color:lightslategrey;
+}
+#SKILL_TABLE{
+    position: absolute;
+    top: 250px;
+    right: 52px;
+    font-size: 15px;
+    border: solid 1px grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    line-height: 4px;
+}
+#SKILL_NAME{
+    position: relative;
+    left: 20px;
+    top: 190px;
+    font-size: 20px;
+    color:royalblue;
+}
+.line{
+    
+    width: 130px;
+    height: 3px;
+    background-color: royalblue;
+}
+.line_S{
+    float: left;
+    width: 100px;
+    height: 3px;
+    background-color: royalblue;
+}
+.line_Z{
+    float: left;
+    width: 30px;
+    height: 3px;
+    background-color: royalblue;
+}
+.line_GreyZ{
+    float: left;
+    width: 100px;
+    height: 3px;
+    background-color: lightgray;
+}
+.line_GreyS{
+    float: left;
+    width: 30px;
+    height: 3px;
+    background-color: lightgray;
+}
+
+#LANG_TABLE{
+    position: absolute;
+    top: 510px;
+    right: 52px;
+    font-size: 15px;
+    border: solid 1px grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    line-height: 4px;
+}
+#LANG_NAME{
+    position: relative;
+    right: 88px;
+    top: 450px;
+    font-size: 20px;
+    color:royalblue;
+}
+.line_EN{
+    float: left;
+    width: 80px;
+    height: 3px;
+    background-color: royalblue;
+}
+.line_EN1{
+    float: left;
+    width: 50px;
+    height: 3px;
+    background-color: lightgray;
+}
+.line_DE{
+    float: left;
+    width: 120px;
+    height: 3px;
+    background-color: royalblue;
+}
+.line_DE1{
+    float: left;
+    width: 10px;
+    height: 3px;
+    background-color: lightgray;
+}
+#HOBBY_NAME{
+    position: relative;
+    right: -23px;
+    top: 550px;
+    font-size: 20px;
+    color:royalblue;
+}
+#HOBBY_LIST{
+    position: absolute;
+    top: 640px;
+    right: 0px;
+    font-size: 16px;
+    list-style: square;
+    ;
+}
+li{
+    color: royalblue;
+}
+span{
+    color: black;
+}
